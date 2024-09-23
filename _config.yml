@@ -12,7 +12,7 @@ title                    : "Shi-Jie Gao (高世杰)"
 title_separator          : "-"
 name                     : &name "Shi-Jie Gao"
 description              : &description "I am a phD student at Nanjing University"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://astro-sjgao.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "astro-sjgao/astro-sjgao.github.io"
 
