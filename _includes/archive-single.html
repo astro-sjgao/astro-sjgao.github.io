@@ -6,7 +6,9 @@
   {% assign teaser = site.teaser %}
 {% endif %}
 
-{% if post.id %}
+{% if post.collection == 'publications' %}
+  {% assign title = post.title %}
+{% elsif post.id %}
   {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
 {% else %}
   {% assign title = post.title %}
@@ -38,20 +40,29 @@
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
 
-        {% if post.collection == 'teaching' %}
+        {% if post.collection == 'publications' %}
+          <p>
+            {% if post.authors_short %}{{ post.authors_short }}<br />{% endif %}
+            <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
+            {% if post.doi %}<br />DOI: <a href="{{ post.paperurl }}">{{ post.doi }}</a>{% endif %}
+            {% if post.bibcode %}<br />NASA ADS: <a href="{{ post.adsurl }}">{{ post.bibcode }}</a>{% endif %}
+            {% if post.arxivurl %}<br /><a href="{{ post.arxivurl }}">arXiv</a>{% endif %}
+          </p>
+        {% elsif post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif post.collection == 'publications' %}
-          <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
 
-    {% if post.excerpt and site.read_more != 'enabled' %}
+    {% if post.collection == 'publications' and post.abstract %}
+    <p class="archive__item-excerpt" itemprop="description">{{ post.abstract }}</p>
+    {% elsif post.excerpt and site.read_more != 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
+    {% unless post.collection == 'publications' %}
     {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% elsif post.citation and post.paperurl and post.slidesurl %}
@@ -79,6 +90,17 @@
     {% elsif post.bibtexurl %}
       <p><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% endif %}
+    {% endunless %}
+
+    {% unless post.collection == 'publications' %}
+    {% if post.adsurl or post.arxivurl %}
+      <p>
+        {% if post.adsurl %}<a href="{{ post.adsurl }}">NASA ADS</a>{% endif %}
+        {% if post.adsurl and post.arxivurl %} | {% endif %}
+        {% if post.arxivurl %}<a href="{{ post.arxivurl }}">arXiv</a>{% endif %}
+      </p>
+    {% endif %}
+    {% endunless %}
 
   </article>
 </div>

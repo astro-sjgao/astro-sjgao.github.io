@@ -8,16 +8,19 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
+  - title: "Research"
+    url: /research/
+
   - title: "Publications"
     url: /publications/
 
   - title: "Talks"
     url: /talks/    
 
-  - title: "Teaching"
-    url: /teaching/    
+  - title: "4.5-m Radio Telescope at NJU"
+    url: /zuo-dijiang-observatory/    
     
-  - title: "Portfolio"
+  - title: "Gallery"
     url: /portfolio/
         
   - title: "Blog Posts"
