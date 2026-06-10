@@ -19,11 +19,8 @@ Contact
 
 Research Interests
 ======
-* Compact objects: neutron stars, black holes, white dwarfs, and their binary systems
-* X-ray binaries, ultraluminous X-ray pulsars, and super-Eddington accretion
-* Binary evolution, compact-object formation channels, and mass-gap black holes
-* Radio pulsars, millisecond pulsars, rotating radio transients, and fast radio bursts
-* Pulsar and transient searches with FAST, GBT, and other radio telescopes
+* Compact-object binary evolution and compact-object formation
+* Radio pulsars and radio transients
 
 Employment
 ======
@@ -58,17 +55,8 @@ Selected Research Highlights
 
 Technical Skills
 ======
-* Radio pulsar and transient search pipelines
-* Periodic, FFA, acceleration, and single-pulse search methods
-* Binary stellar evolution and compact-object population modeling
-* Data analysis for radio and high-energy astrophysics
-* Scientific computing and reproducible research workflows
-
-Selected Facilities and Tools
-======
-* FAST: archival pulsar searches, targeted radio observations, and single-pulse studies
-* Green Bank Telescope: high-frequency pulsar searches in globular clusters
-* Shanghai TianMa Radio Telescope: targeted radio observations
+* Radio pulsar searches and polarization data processing
+* Binary population synthesis and binary evolution studies with MESA/BSE
 
 Full Publication List
 ======

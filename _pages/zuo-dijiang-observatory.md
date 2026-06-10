@@ -103,11 +103,11 @@ author_profile: true
 
     <p>Nanjing University's Zuo Dijiang (左涤江) Observatory hosts a 4.5-m radio telescope that provides a hands-on platform for radio-astronomy observing, pulsar signal reception, data acquisition, and public education.</p>
 
-    <p>I am involved in observing practice and outreach activities with this telescope. The goal is to connect the physics of neutron stars with real radio signals: from pointing a small radio telescope and collecting data, to understanding how periodic pulsar signals can be detected and interpreted.</p>
+    <p>I have been working on this telescope from the ground up: testing the control system, calibrating the pointing, checking the observing chain, and turning it from an instrument on site into something that can actually catch pulsar signals.</p>
 
-    <p>The 4.5-m radio telescope is especially useful for teaching and demonstration because it makes the full observing chain visible. Students and visitors can follow how a radio signal enters the antenna, passes through the receiver and data-acquisition system, and becomes a time series that can be searched for periodic or transient signals.</p>
+    <p>A large part of the work has been building a pulsar observing terminal with SDR hardware and software. I use it to record radio data, handle interference, fold pulsar signals, and turn the result into something students and visitors can actually see and hear.</p>
 
-    <p>This platform is also a bridge between classroom astronomy and research practice. It introduces the practical constraints of radio observations, including antenna pointing, receiver sensitivity, radio-frequency interference, calibration, and signal processing.</p>
+    <p>For me, this telescope is where classroom astronomy meets real observing: control, pointing, calibration, receiver behavior, radio-frequency interference, and signal processing all become visible.</p>
   </div>
 
   <figure>
@@ -119,7 +119,7 @@ author_profile: true
 Detected Pulsar Signals
 ======
 
-One focus of my outreach material is to show that pulsars are not just abstract objects in textbooks. With radio observations and basic signal processing, their pulses can be detected, folded, and displayed as real astronomical signals.
+Pulsars are not just objects in textbooks. With radio observations and basic signal processing, their pulses can be detected, folded, and displayed as real astronomical signals.
 
 Pulse Playback
 ======
@@ -204,30 +204,3 @@ This short clip turns one of our Vela pulsar detections into sound. The regular 
     {% endif %}
   </figure>
 </section>
-
-The observing workflow includes:
-
-* understanding the target pulsar and observing frequency
-* pointing and tracking with the radio telescope
-* recording radio data as a time series
-* removing or identifying radio-frequency interference
-* searching for periodic signals
-* folding the data to recover an average pulse profile
-
-Observing Practice
-======
-
-The telescope can support compact but complete observing exercises. These exercises are designed to help students understand both the astronomical source and the instrument:
-
-* antenna pointing and basic telescope operation
-* radio data acquisition and time-domain signal recording
-* pulsar periodicity searches and folded pulse profiles
-* simple signal-to-noise estimates
-* comparison between real observations and simulated pulsar data
-
-Outreach and Education
-======
-
-The 4.5-m radio telescope provides a vivid way to introduce radio astronomy to a broad audience. In public talks and teaching material, I use pulsars as a central example because they connect many ideas at once: stellar evolution, neutron-star physics, precision timing, the interstellar medium, and signal processing.
-
-This work is part of my broader interest in making compact-object astrophysics more tangible. A small radio telescope cannot replace large facilities such as FAST or the Green Bank Telescope, but it can show the essential logic of radio observing in a direct and memorable way.
