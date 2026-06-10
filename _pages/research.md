@@ -35,11 +35,3 @@ I am involved in observing practice and outreach with the 4.5-m radio telescope 
 
 One focus is showing how pulsar signals can be received and interpreted, connecting the physics of neutron stars with real radio data and practical observing experience.
 
-Selected Themes
-======
-
-* Formation channels of mass-gap black holes and compact-object binaries
-* Evolution of neutron-star X-ray binaries and binary pulsars
-* Radio pulsar and transient searches with FAST and GBT
-* Rotating radio transients and single-pulse emission behavior
-* Small radio telescopes for pulsar observing practice and public education

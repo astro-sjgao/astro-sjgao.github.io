@@ -38,9 +38,3 @@ Before joining Nanjing University, I studied physics at Shandong University. My 
 
 I am always interested in questions that connect physical modeling with real astronomical data: how compact binaries form, how pulsars reveal themselves in noisy observations, and what these systems can tell us about the life cycles of stars.
 
-News
-======
-
-* 2026: Our work on FAST archival pulsar searches reported the discovery of 19 pulsars.
-* 2025: Our study of RRAT J2325-0530 investigated its unusual single-pulse waiting-time behavior.
-* 2024: Our discovery of a millisecond pulsar associated with Terzan 6 was published in *The Astrophysical Journal Letters*.

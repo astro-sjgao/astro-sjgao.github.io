@@ -204,30 +204,3 @@ This video shows a detected pulsar signal as a time-domain playback. If the vide
     {% endif %}
   </div>
 </div>
-
-The observing workflow includes:
-
-* understanding the target pulsar and observing frequency
-* pointing and tracking with the radio telescope
-* recording radio data as a time series
-* removing or identifying radio-frequency interference
-* searching for periodic signals
-* folding the data to recover an average pulse profile
-
-Observing Practice
-======
-
-The telescope can support compact but complete observing exercises. These exercises are designed to help students understand both the astronomical source and the instrument:
-
-* antenna pointing and basic telescope operation
-* radio data acquisition and time-domain signal recording
-* pulsar periodicity searches and folded pulse profiles
-* simple signal-to-noise estimates
-* comparison between real observations and simulated pulsar data
-
-Outreach and Education
-======
-
-The 4.5-m radio telescope provides a vivid way to introduce radio astronomy to a broad audience. In public talks and teaching material, I use pulsars as a central example because they connect many ideas at once: stellar evolution, neutron-star physics, precision timing, the interstellar medium, and signal processing.
-
-This work is part of my broader interest in making compact-object astrophysics more tangible. A small radio telescope cannot replace large facilities such as FAST or the Green Bank Telescope, but it can show the essential logic of radio observing in a direct and memorable way.
