@@ -133,7 +133,7 @@ Pulsars are not just objects in textbooks. With radio observations and basic sig
 Pulse Playback
 ======
 
-This short clip turns one of our Vela pulsar detections into sound. The regular ticking is the pulsar signal itself, folded into something you can see and hear rather than only inspect in a diagnostic plot.
+This short clip turns one of our Vela pulsar detections into sound. The regular ticking is the pulsar signal itself. It is nice to hear the signal, not just look at it in a plot.
 
 {% assign pulse_video = site.static_files | where: "path", "/images/njurt/velaNJURT.mp4" | first %}
 
@@ -150,6 +150,7 @@ This short clip turns one of our Vela pulsar detections into sound. The regular 
 </div>
 
 {% assign b0329 = site.static_files | where: "path", "/images/njurt/B0329_HighSN.png" | first %}
+{% assign b0628 = site.static_files | where: "path", "/images/njurt/B0628-28.png" | first %}
 {% assign crab = site.static_files | where: "path", "/images/njurt/crabGP.png" | first %}
 {% assign vela = site.static_files | where: "path", "/images/njurt/B0833-45_prepfold.png" | first %}
 {% assign b0950 = site.static_files | where: "path", "/images/njurt/B0950+08.png" | first %}
@@ -159,11 +160,11 @@ This short clip turns one of our Vela pulsar detections into sound. The regular 
   <div>
     <h3>PSR B0329+54</h3>
     <div class="pulsar-meta">PRESTO prepfold detection</div>
-    <p><a href="https://en.wikipedia.org/wiki/PSR_B0329%2B54">B0329+54</a> is a bright northern pulsar, and a friendly first target when checking whether a small radio telescope is really behaving. In this fold, the pulse is already clear enough that the observation feels less like a test and more like a first conversation with the sky.</p>
+    <p><a href="https://en.wikipedia.org/wiki/PSR_B0329%2B54">B0329+54</a> is a bright pulsar and a good first target for a small radio telescope. The signal is clear after folding, so it is very useful when checking whether the telescope and software are working.</p>
     <ul class="pulsar-facts">
       <li>Folded period: about 714.52 ms</li>
       <li>DM: about 27.18 pc cm<sup>-3</sup></li>
-      <li>Good source for first-light tests and timing-chain checks</li>
+      <li>A good source for first-light tests</li>
     </ul>
   </div>
   <figure>
@@ -177,13 +178,33 @@ This short clip turns one of our Vela pulsar detections into sound. The regular 
 
 <section class="pulsar-detection">
   <div>
+    <h3>PSR B0628-28</h3>
+    <div class="pulsar-meta">PRESTO prepfold detection</div>
+    <p>B0628-28 is a slow pulsar in this small sample. Its period is longer than one second, so the pulses are easy to imagine as a steady beat. This makes it a good source for showing what folding does.</p>
+    <ul class="pulsar-facts">
+      <li>Folded period: about 1244.43 ms</li>
+      <li>DM: about 34.27 pc cm<sup>-3</sup></li>
+      <li>A clear slow-pulsar example from the NJU 4.5-m telescope</li>
+    </ul>
+  </div>
+  <figure>
+    {% if b0628 %}
+      <img src="/images/njurt/B0628-28.png" alt="PRESTO prepfold detection figure for PSR B0628-28">
+    {% else %}
+      <div class="signal-placeholder">Add figure: images/njurt/B0628-28.png</div>
+    {% endif %}
+  </figure>
+</section>
+
+<section class="pulsar-detection">
+  <div>
     <h3>PSR B1933+16</h3>
     <div class="pulsar-meta">PRESTO prepfold detection</div>
-    <p><a href="https://arxiv.org/abs/2502.09342">B1933+16</a> is a good check that the telescope pointing, SDR recording chain, and folding pipeline are working together. The pulse is not as effortless as Vela, which makes it a more satisfying engineering test.</p>
+    <p><a href="https://arxiv.org/abs/2502.09342">B1933+16</a> is a good check for the telescope pointing and SDR data path. The signal is weaker than Vela, but it still comes out after folding, which is exactly what we want to see.</p>
     <ul class="pulsar-facts">
       <li>Folded period: about 358.75 ms</li>
       <li>DM: about 158.64 pc cm<sup>-3</sup></li>
-      <li>A useful high-DM test source for the NJU 4.5-m setup</li>
+      <li>A useful higher-DM test source</li>
     </ul>
   </div>
   <figure>
@@ -199,11 +220,11 @@ This short clip turns one of our Vela pulsar detections into sound. The regular 
   <div>
     <h3>Crab Pulsar, PSR B0531+21</h3>
     <div class="pulsar-meta">Giant pulses detected using CODD</div>
-    <p>The <a href="https://en.wikipedia.org/wiki/Crab_Pulsar">Crab pulsar</a> sits inside the Crab Nebula, the remnant of the historical supernova of 1054. Here I am showing giant pulses: short, bright flashes that are much more dramatic than the average pulse profile.</p>
+    <p>The <a href="https://en.wikipedia.org/wiki/Crab_Pulsar">Crab pulsar</a> is in the Crab Nebula, which came from the supernova seen in 1054. Here I show giant pulses: very short and bright radio flashes from the pulsar.</p>
     <ul class="pulsar-facts">
       <li>Spin period: about 33.4 ms</li>
       <li>DM used in this detection: about 56.71 pc cm<sup>-3</sup></li>
-      <li>Giant pulses make the Crab a vivid time-domain source</li>
+      <li>Giant pulses make the Crab easy to show in raw data</li>
     </ul>
   </div>
   <figure>
@@ -218,12 +239,12 @@ This short clip turns one of our Vela pulsar detections into sound. The regular 
 <section class="pulsar-detection">
   <div>
     <h3>Vela Pulsar, PSR B0833-45</h3>
-    <div class="pulsar-meta">PRESTO prepfold detection with very high signal-to-noise ratio</div>
-    <p>The <a href="https://en.wikipedia.org/wiki/Vela_Pulsar">Vela pulsar</a> is one of the brightest radio pulsars in the sky. It is also famous for glitches, sudden changes in rotation that make it a classic object for neutron-star interior physics. For this telescope, Vela is the showpiece: bright, clean, and easy to turn into sound.</p>
+    <div class="pulsar-meta">PRESTO prepfold detection, very strong signal</div>
+    <p>The <a href="https://en.wikipedia.org/wiki/Vela_Pulsar">Vela pulsar</a> is one of the brightest radio pulsars in the sky. For our telescope, it is the best showpiece: the pulse is strong, clean, and easy to turn into sound.</p>
     <ul class="pulsar-facts">
       <li>Folded period: about 89.43 ms</li>
       <li>DM: about 67.91 pc cm<sup>-3</sup></li>
-      <li>Very high signal-to-noise ratio in the NJU 4.5-m fold</li>
+      <li>Very strong in this observation</li>
     </ul>
   </div>
   <figure>
@@ -239,7 +260,7 @@ This short clip turns one of our Vela pulsar detections into sound. The regular 
   <div>
     <h3>PSR B0950+08</h3>
     <div class="pulsar-meta">Weak pulsar visible in a folded profile</div>
-    <p><a href="https://arxiv.org/abs/1608.01948">B0950+08</a> is a nearby, low-DM pulsar known for strong pulse-to-pulse variability. In this observation it is not visually loud, but folding still pulls the pulse out of the noise. That makes it a nice example of why pulsar searches are patient work.</p>
+    <p><a href="https://arxiv.org/abs/1608.01948">B0950+08</a> is a nearby pulsar with a small DM. In this observation it is not very strong, but after folding the pulse is still visible. This is a good example of why we stack many pulses together.</p>
     <ul class="pulsar-facts">
       <li>Folded period: about 253.09 ms</li>
       <li>DM: about 3 pc cm<sup>-3</sup></li>

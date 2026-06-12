@@ -23,7 +23,7 @@ repository               : "astro-sjgao.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "fast.jpg"
   name             : "Shi-Jie Gao"
   pronouns         : # example: "she/her"  
   bio              : "Postdoc at Nanjing University"
