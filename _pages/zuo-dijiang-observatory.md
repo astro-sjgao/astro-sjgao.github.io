@@ -110,13 +110,13 @@ author_profile: true
   <div>
     <h1>4.5-m Radio Telescope at NJU</h1>
 
-    <p>Nanjing University's Zuo Dijiang (左涤江) Observatory hosts a 4.5-m radio telescope that provides a hands-on platform for radio-astronomy observing, pulsar signal reception, data acquisition, and public education.</p>
+    <p>Nanjing University's Zuo Dijiang (左涤江) Observatory hosts a 4.5-m radio telescope. It is a hands-on platform for radio astronomy, receiving pulsar signals, data acquisition, and public education.</p>
 
-    <p>I have been working on this telescope from the ground up: testing the control system, calibrating the pointing, checking the observing chain, and turning it from an instrument on site into something that can actually catch pulsar signals.</p>
+    <p>I have worked on this telescope from the ground up: testing the control system, calibrating the pointing, checking the observing chain, and turning it from an instrument on site into something that can actually catch pulsar signals.</p>
 
-    <p>A large part of the work has been building a pulsar observing terminal with SDR hardware and software. I use it to record radio data, handle interference, fold pulsar signals, and turn the result into something students and visitors can actually see and hear.</p>
+    <p>A large part of the work has been building a pulsar observing terminal with SDR hardware (ANTSDR U220, 56 Msps) and pulsar software, including <a href="https://github.com/scottransom/presto">PRESTO</a>, <a href="https://dspsr.sourceforge.net/">DSPSR</a>, <a href="https://github.com/tftelkamp/vrt-iq-tools">vrt-iq-tools</a>, <a href="https://psrchive.sourceforge.net/">PSRCHIVE</a>, <a href="https://psrdada.sourceforge.net/">PSRDADA</a>, and <a href="https://sourceforge.net/projects/tempo2/">TEMPO2</a>. I use this setup to record radio data, handle interference, fold pulsar signals, and turn the results into something students and visitors can actually see and hear.</p>
 
-    <p>For me, this telescope is where classroom astronomy meets real observing: control, pointing, calibration, receiver behavior, radio-frequency interference, and signal processing all become visible.</p>
+    <p>This telescope is where classroom astronomy meets real observing: control, pointing, calibration, receiver behavior, radio-frequency interference, and signal processing all become visible.</p>
   </div>
 
   <figure>
@@ -186,7 +186,7 @@ This short clip turns one of our Vela pulsar detections into sound. The regular 
     <ul class="pulsar-facts">
       <li>Folded period: about 1244.43 ms</li>
       <li>DM: about 34.27 pc cm<sup>-3</sup></li>
-      <li>A clear slow-pulsar example from the NJU 4.5-m telescope</li>
+      <li>A clear slow-pulsar example</li>
     </ul>
   </div>
   <figure>
@@ -226,7 +226,7 @@ This short clip turns one of our Vela pulsar detections into sound. The regular 
     <ul class="pulsar-facts">
       <li>Folded period: about 455.09 ms</li>
       <li>DM: about 479.29 pc cm<sup>-3</sup></li>
-      <li>A strong high-DM test source for the NJU 4.5-m telescope</li>
+      <li>A strong high-DM test source</li>
     </ul>
   </div>
   <figure>
@@ -242,11 +242,11 @@ This short clip turns one of our Vela pulsar detections into sound. The regular 
   <div>
     <h3>Crab Pulsar, PSR B0531+21</h3>
     <div class="pulsar-meta">Giant pulses detected using CODD</div>
-    <p>The <a href="https://en.wikipedia.org/wiki/Crab_Pulsar">Crab pulsar</a> is in the Crab Nebula, which came from the supernova seen in 1054. Here I show giant pulses: very short and bright radio flashes from the pulsar.</p>
+    <p>The <a href="https://en.wikipedia.org/wiki/Crab_Pulsar">Crab pulsar</a> is in the Crab Nebula, which came from the supernova seen in 1054. Here I show giant pulses: very short and bright radio flashes from the pulsar. These pulses were captured with a real-time coherent-dedispersion pipeline running on a GPU.</p>
     <ul class="pulsar-facts">
       <li>Spin period: about 33.4 ms</li>
       <li>DM used in this detection: about 56.71 pc cm<sup>-3</sup></li>
-      <li>Giant pulses make the Crab easy to show in raw data</li>
+      <li>Giant pulses can last from nanoseconds to microseconds and can reach flux densities of about MJy.</li>
     </ul>
   </div>
   <figure>
@@ -286,7 +286,7 @@ This short clip turns one of our Vela pulsar detections into sound. The regular 
     <ul class="pulsar-facts">
       <li>Folded period: about 5.76 ms</li>
       <li>DM: about 2.66 pc cm<sup>-3</sup></li>
-      <li>A fast and nearby millisecond pulsar</li>
+      <li>A fast nearby millisecond pulsar in a binary system, one of the kinds of systems I study</li>
     </ul>
   </div>
   <figure>
