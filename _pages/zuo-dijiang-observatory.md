@@ -154,7 +154,9 @@ This short clip turns one of our Vela pulsar detections into sound. The regular 
 {% assign crab = site.static_files | where: "path", "/images/njurt/crabGP.png" | first %}
 {% assign vela = site.static_files | where: "path", "/images/njurt/B0833-45_prepfold.png" | first %}
 {% assign b0950 = site.static_files | where: "path", "/images/njurt/B0950+08.png" | first %}
+{% assign b1641 = site.static_files | where: "path", "/images/njurt/B1641-45.png" | first %}
 {% assign b1933 = site.static_files | where: "path", "/images/njurt/B1933+16.png" | first %}
+{% assign j0437 = site.static_files | where: "path", "/images/njurt/J0437-4715.png" | first %}
 
 <section class="pulsar-detection">
   <div>
@@ -218,6 +220,26 @@ This short clip turns one of our Vela pulsar detections into sound. The regular 
 
 <section class="pulsar-detection">
   <div>
+    <h3>PSR B1641-45</h3>
+    <div class="pulsar-meta">PRESTO prepfold detection</div>
+    <p><a href="https://www.atnf.csiro.au/research/pulsar/psrcat/proc_form.php?Name=B1641-45&amp;submit=Table">B1641-45</a> is a bright southern pulsar. Its DM is much larger than the nearby pulsars on this page, so the radio signal has crossed a lot more free electrons before reaching us.</p>
+    <ul class="pulsar-facts">
+      <li>Folded period: about 455.09 ms</li>
+      <li>DM: about 479.29 pc cm<sup>-3</sup></li>
+      <li>A strong high-DM test source for the NJU 4.5-m telescope</li>
+    </ul>
+  </div>
+  <figure>
+    {% if b1641 %}
+      <img src="/images/njurt/B1641-45.png" alt="PRESTO prepfold detection figure for PSR B1641-45">
+    {% else %}
+      <div class="signal-placeholder">Add figure: images/njurt/B1641-45.png</div>
+    {% endif %}
+  </figure>
+</section>
+
+<section class="pulsar-detection">
+  <div>
     <h3>Crab Pulsar, PSR B0531+21</h3>
     <div class="pulsar-meta">Giant pulses detected using CODD</div>
     <p>The <a href="https://en.wikipedia.org/wiki/Crab_Pulsar">Crab pulsar</a> is in the Crab Nebula, which came from the supernova seen in 1054. Here I show giant pulses: very short and bright radio flashes from the pulsar.</p>
@@ -252,6 +274,26 @@ This short clip turns one of our Vela pulsar detections into sound. The regular 
       <img src="/images/njurt/B0833-45_prepfold.png" alt="PRESTO prepfold detection figure for the Vela pulsar PSR B0833-45">
     {% else %}
       <div class="signal-placeholder">Add figure: images/njurt/B0833-45_prepfold.png</div>
+    {% endif %}
+  </figure>
+</section>
+
+<section class="pulsar-detection">
+  <div>
+    <h3>PSR J0437-4715</h3>
+    <div class="pulsar-meta">PRESTO prepfold detection of a millisecond pulsar</div>
+    <p><a href="https://en.wikipedia.org/wiki/PSR_J0437%E2%88%924715">J0437-4715</a> is a nearby millisecond pulsar in a binary system. It spins very fast, about 174 times each second. Catching this kind of signal is a nice test of timing, folding, and the whole observing chain.</p>
+    <ul class="pulsar-facts">
+      <li>Folded period: about 5.76 ms</li>
+      <li>DM: about 2.66 pc cm<sup>-3</sup></li>
+      <li>A fast and nearby millisecond pulsar</li>
+    </ul>
+  </div>
+  <figure>
+    {% if j0437 %}
+      <img src="/images/njurt/J0437-4715.png" alt="PRESTO prepfold detection figure for PSR J0437-4715">
+    {% else %}
+      <div class="signal-placeholder">Add figure: images/njurt/J0437-4715.png</div>
     {% endif %}
   </figure>
 </section>
