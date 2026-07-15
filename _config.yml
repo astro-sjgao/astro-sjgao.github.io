@@ -12,11 +12,11 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Shi-Jie Gao"
 title_separator          : "-"
 name                     : &name "Shi-Jie Gao"
-description              : &description "Shi-Jie Gao's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Shi-Jie Gao - compact-object binaries, radio pulsars, and transients"
 url                      : https://astro-sjgao.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "astro-sjgao.github.io"
+repository               : "astro-sjgao/astro-sjgao.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -26,7 +26,7 @@ author:
   avatar           : "fast.jpg"
   name             : "Shi-Jie Gao"
   pronouns         : # example: "she/her"  
-  bio              : "Postdoc at Nanjing University"
+  bio              : "Postdoctoral researcher | Compact-object binaries and radio pulsars"
   location         : "Nanjing, China"
   employer         : "Nanjing University"
   uri              : # URL
@@ -51,7 +51,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : #"academicpages"
+  github           : "astro-sjgao"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -176,6 +176,7 @@ exclude:
   - assets/js/vendor
   - CHANGELOG
   - Capfile
+  - CV
   - config
   - Dockerfile
   - Gemfile
@@ -225,9 +226,6 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
@@ -271,15 +269,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
   # _talks
   - scope:
       path: ""

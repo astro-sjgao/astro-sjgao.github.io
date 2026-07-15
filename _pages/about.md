@@ -2,37 +2,32 @@
 permalink: /
 title: "About Me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-I am Shi-Jie Gao (高世杰), a postdoctoral researcher at the School of Astronomy and Space Science, Nanjing University.
+I am Shi-Jie Gao (高世杰), a postdoctoral researcher at the School of Astronomy and Space Science, Nanjing University. My research connects the formation and evolution of compact-object binaries with radio observations of pulsars and transients.
 
-My work has two main threads: compact-object binary evolution and radio pulsars/transients.
-
-On the theory side, I study how compact-object binaries form and evolve, including X-ray binaries, binary pulsars, and possible channels for mass-gap black holes. On the observational side, I search for radio pulsars and transients with data from FAST, the Green Bank Telescope, and smaller radio telescopes.
-
-I am also working on the 4.5-m radio telescope at Nanjing University's [Zuo Dijiang (左涤江) Observatory](/zuo-dijiang-observatory/), including telescope control, pointing calibration, and an SDR-based pulsar observing terminal.
-
-Research Interests
+Research Focus
 ======
 
-* Compact-object binaries and X-ray binaries
-* Radio pulsars and radio transients
+**Compact-object binaries.** I study how compact-object and X-ray binaries form and evolve, with interests spanning binary pulsars, white-dwarf binaries, and possible formation channels for mass-gap black holes.
 
+**Radio pulsars and transients.** My current work emphasizes pulsar and transient searches and pulsar polarization studies using FAST, the Green Bank Telescope, and the Parkes 64-m radio telescope (Murriyang).
 
 Selected Highlights
 ======
 
-* Reported 19 pulsars from FAST archival data in [*Pulsar Gleaners*](https://astro-sjgao.github.io/PulsarGleaners/), named after the idea of recovering overlooked signals.
-* Discovered the first radio pulsar associated with the globular cluster Terzan 6, PSR J1750-3116A, using high-frequency Green Bank Telescope data.
-* Studied the formation of mass-gap black holes from neutron-star X-ray binaries with super-Eddington accretion.
-* Commissioned and tested Nanjing University's 4.5-m radio telescope for pulsar observing practice.
+* Detected more than 30 pulsars in FAST data, including the 19 discoveries reported in *Pulsar Gleaners*.
+* Discovered PSR J1750-3116A, the first radio pulsar associated with the globular cluster Terzan 6, through a direct high-frequency search with the Green Bank Telescope.
+* Studied RRAT J2325-0530, a rotating radio transient with an atypical waiting-time distribution.
+* Investigated compact-object binary evolution and possible routes to forming mass-gap black holes.
+* Helped commission Nanjing University's 4.5-m radio telescope and detect signals from eight pulsars for teaching and public outreach.
 
 Background
 ======
 
-I studied physics at Shandong University before moving into astronomy and high-energy astrophysics. That training led me toward compact objects.
+I studied physics at Shandong University and completed my Ph.D. in astronomy at Nanjing University. My doctoral research focused on compact-object and X-ray binary evolution; my postdoctoral work places greater emphasis on radio pulsar and transient searches.
 
-I like problems where physical modeling meets real data: how compact-object binaries form, how pulsars show up in noisy observations, and what these systems tell us about stellar evolution.
+I enjoy problems where physical modeling meets real data: how compact-object binaries form, how weak pulsar signals emerge from noisy observations, and what these systems reveal about stellar evolution.

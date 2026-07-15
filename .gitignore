@@ -21,3 +21,9 @@ package-lock.json
 
 # Ignore files created by MacOS
 .DS_Store
+
+# Private CV sources and the full CV containing funding details
+/CV/
+
+# Local render and verification artifacts
+/tmp/

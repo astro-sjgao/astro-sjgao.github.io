@@ -5,25 +5,29 @@ permalink: /research/
 author_profile: true
 ---
 
-My research centers on compact-object binaries and radio pulsars/transients. I use binary-evolution modeling, population synthesis, and radio data analysis to connect how compact objects form with how they are observed.
+My research spans two connected areas: the formation and evolution of compact-object binaries, and radio observations of pulsars and transient sources. I combine stellar- and binary-evolution calculations with radio data analysis to connect how compact objects form with how they are observed.
 
-Compact-Object Binary Evolution
+Compact-Object Formation and Binary Evolution
 ======
 
-I study compact-object binaries containing neutron stars, black holes, and white dwarfs. My work focuses on how mass transfer, super-Eddington accretion, common-envelope evolution, stellar winds, and compact-object mass growth shape X-ray binaries, binary pulsars, and mass-gap black-hole candidates.
+I study binaries containing neutron stars, black holes, and white dwarfs. My work examines how mass transfer, stellar winds, super-Eddington accretion, common-envelope evolution, and compact-object mass growth shape X-ray binaries, binary pulsars, and mass-gap black-hole candidates.
 
-I mainly use MESA/BSE calculations and binary population synthesis, then compare the results with observed systems.
+My doctoral research centered on compact-object and X-ray binaries, including possible formation channels for mass-gap black holes and the evolution of white-dwarf and millisecond-pulsar binaries. I use stellar- and binary-evolution calculations and population-synthesis methods to compare theoretical outcomes with observed systems.
 
 Radio Pulsars and Transients
 ======
 
-I search for and characterize radio pulsars and transient radio sources with FAST, the Green Bank Telescope, and the 4.5-m radio telescope at NJU. My work includes periodicity searches, FFA searches, acceleration searches, single-pulse analyses, and polarization data processing.
+My current work emphasizes searches for radio pulsars and transients, together with pulsar polarization studies using FAST, the Green Bank Telescope, and the Parkes 64-m radio telescope (Murriyang).
 
-I am particularly interested in faint, long-period, sporadic, and high-dispersion-measure pulsars. Examples include the FAST archival discoveries in *Pulsar Gleaners* and PSR J1750-3116A, the first radio pulsar likely associated with Terzan 6.
+Research highlights include:
 
-4.5-m Radio Telescope at NJU
+* the detection of more than 30 pulsars in FAST data;
+* the discovery of PSR J1750-3116A, the first pulsar associated with the globular cluster Terzan 6, through a direct search at 6 GHz; and
+* studies of RRAT J2325-0530 and its atypical waiting-time distribution.
+
+NJU 4.5-m Radio Telescope
 ======
 
-I am working on the 4.5-m radio telescope at Nanjing University's [Zuo Dijiang Observatory](/zuo-dijiang-observatory/), including telescope control, pointing calibration, and an SDR-based pulsar observing terminal.
+I am involved in commissioning and testing the 4.5-m radio telescope at Nanjing University's [Zuo Dijiang Observatory](/zuo-dijiang-observatory/). The work includes telescope control, pointing calibration, observing-chain tests, and development of an SDR-based pulsar observing terminal.
 
-This small telescope is a hands-on way to show how pulsar signals are received, recorded, folded, and interpreted.
+We have detected radio pulsations from eight pulsars, including the Crab and Vela pulsars and PSR B0329+54. The telescope provides a hands-on platform for pulsar observing, student training, and public outreach.

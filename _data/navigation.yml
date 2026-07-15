@@ -17,12 +17,12 @@ main:
   - title: "Talks"
     url: /talks/    
 
+  - title: "Teaching & Outreach"
+    url: /teaching/
+
   - title: "4.5-m Radio Telescope at NJU"
     url: /zuo-dijiang-observatory/    
-    
-  - title: "Gallery"
-    url: /portfolio/
-    
+
   - title: "CV"
     url: /cv/
     
