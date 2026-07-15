@@ -21,7 +21,7 @@ My current work emphasizes searches for radio pulsars and transients, together w
 
 Research highlights include:
 
-* the detection of more than 30 pulsars in FAST data;
+* the detection of more than 30 pulsars in FAST data, with those identified in publicly available FAST observations documented on the [Pulsar Gleaners page](/PulsarGleaners/);
 * the discovery of PSR J1750-3116A, the first pulsar associated with the globular cluster Terzan 6, through a direct search at 6 GHz; and
 * studies of RRAT J2325-0530 and its atypical waiting-time distribution.
 

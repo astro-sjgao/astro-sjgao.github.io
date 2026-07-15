@@ -19,7 +19,7 @@ Research Focus
 Selected Highlights
 ======
 
-* Detected more than 30 pulsars in FAST data, including the 19 discoveries reported in *Pulsar Gleaners*.
+* Detected more than 30 pulsars in FAST data; the [Pulsar Gleaners page](/PulsarGleaners/) lists those identified in publicly available FAST observations.
 * Discovered PSR J1750-3116A, the first radio pulsar associated with the globular cluster Terzan 6, through a direct high-frequency search with the Green Bank Telescope.
 * Studied RRAT J2325-0530, a rotating radio transient with an atypical waiting-time distribution.
 * Investigated compact-object binary evolution and possible routes to forming mass-gap black holes.

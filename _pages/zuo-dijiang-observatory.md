@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "4.5-m Radio Telescope at NJU"
+title: "NJU 4.5-m Radio Telescope"
 permalink: /zuo-dijiang-observatory/
 author_profile: true
 ---
@@ -108,7 +108,7 @@ author_profile: true
 
 <div class="njurt-intro">
   <div>
-    <h1>4.5-m Radio Telescope at NJU</h1>
+    <h1>NJU 4.5-m Radio Telescope</h1>
 
     <p>Nanjing University's Zuo Dijiang (左涤江) Observatory hosts a 4.5-m radio telescope. It is a hands-on platform for radio astronomy, receiving pulsar signals, data acquisition, and public education.</p>
 
