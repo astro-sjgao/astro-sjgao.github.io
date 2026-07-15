@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Shi-Jie Gao (高世杰), a postdoctoral researcher at the School of Astronomy and Space Science, Nanjing University. My research connects the formation and evolution of compact-object binaries with radio observations of pulsars and transients.
+I am Shi-Jie Gao (高世杰), a postdoctoral researcher at the School of Astronomy and Space Science, Nanjing University. My research currently follows two distinct directions: theoretical studies of the formation and evolution of compact-object binaries, and radio observations of pulsars and transients. In future work, I aim to connect these theoretical and observational directions.
 
 Research Focus
 ======

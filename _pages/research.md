@@ -5,7 +5,7 @@ permalink: /research/
 author_profile: true
 ---
 
-My research spans two connected areas: the formation and evolution of compact-object binaries, and radio observations of pulsars and transient sources. I combine stellar- and binary-evolution calculations with radio data analysis to connect how compact objects form with how they are observed.
+My research currently spans two distinct areas: theoretical studies of the formation and evolution of compact-object binaries, and radio observations of pulsars and transient sources. These lines of work have so far been pursued separately. In future, I aim to connect them by using radio pulsar observations to constrain compact-object formation and binary evolution.
 
 Compact-Object Formation and Binary Evolution
 ======
